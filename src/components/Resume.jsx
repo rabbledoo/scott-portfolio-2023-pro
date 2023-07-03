@@ -4,70 +4,72 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = () => {
   const educationDetails = [
     {
-      yearRange: "2015 - 2017",
-      title: "Master in Computer Engineering",
-      place: "Harvard University",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "October 2021 - October 2022",
+      title: "Full-Stack Engineering Certification",
+      place: "Kenzie Academy",
+      desc: "Full-Stack Software Engineering project-based curriculum using modern tools such as ReactJS, Python, Django, NodeJS, JavaScript",
     },
     {
-      yearRange: "2014 - 2015",
-      title: "Bachelor in Computer Engineering",
-      place: "University of California",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
-    },
-    {
-      yearRange: "2013 - 2014",
-      title: "International Science",
-      place: "Harvard University",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "September 2009 - December 2016",
+      title: "Bachelor in Economics",
+      place: "Michigan State University",
+      desc: "Bachelors of Arts in Economics with a Minor in Japanese",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2020 - current",
-      title: "Sr. Font End Developer",
-      place: "Apple Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "March 2022 - current",
+      title: "Software Engineer",
+      place: "SiteRx",
+      desc: "Develops, tests and desgins full-stack applications primarily in the JavaScript ecosystem.  ReactJS, NodeJS, Redux, AWS cloud services, SQL/NoSQL, TypeScript",
     },
     {
-      yearRange: "2018 - 2020",
-      title: "Jr. Font End Developer",
-      place: "Dribbble Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "January 2022 - February 2022",
+      title: "Technology Consultant",
+      place: "Humble Health",
+      desc: "Provided IT consulting services to a new behavioral health practice.  Helped launch the digital footprint for the new company.",
     },
     {
-      yearRange: "2017 - 2018",
-      title: "HTML Developer",
-      place: "Adobe Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "October 2021 - December 2021",
+      title: "Web Developer",
+      place: "Baird Financial",
+      desc: "Built the share button feature to their pre-existing landing page.  Used HTML, CSS, JavaScript and 3rd party component libraries.",
     },
   ];
 
   const skills = [
     {
-      name: "Web Design",
-      percent: 65,
-    },
-    {
-      name: "HTML/CSS",
+      name: "JavaScript",
       percent: 95,
     },
     {
-      name: "JavaScript",
-      percent: 80,
-    },
-    {
-      name: "React JS",
-      percent: 70,
-    },
-    {
-      name: "Angular Js",
+      name: "HTML/CSS",
       percent: 60,
     },
     {
-      name: "Bootstrap",
-      percent: 99,
+      name: "ReactJS",
+      percent: 80,
+    },
+    {
+      name: "NodeJS",
+      percent: 95,
+    },
+    {
+      name: "SQL/NoSQL",
+      percent: 80,
+    },
+    {
+      name: "AWS",
+      percent: 70,
+    },
+    {
+      name: "Debugging",
+      percent: 90,
+    },
+    {
+      name: "TypeScript",
+      percent: 70,
     },
   ];
 

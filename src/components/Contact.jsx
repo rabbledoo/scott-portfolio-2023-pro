@@ -7,6 +7,7 @@ import { Tooltip } from "./Tooltip";
 
 const Contact = () => {
   const form = useRef();
+  console.log(form);
   const [sendingMail, setSendingMail] = useState(false);
 
   const sendEmail = (e) => {
@@ -14,10 +15,10 @@ const Contact = () => {
     setSendingMail(true);
     emailjs
       .sendForm(
-        "service_i8Fk3ms",
-        "template_siFcin9",
+        "service_zeqltao",
+        "template_he02r6r",
         form.current,
-        "c9HsFgGF0tFWyVnAL"
+        "r-idvqA2npavH4YBz"
       )
       .then(
         (result) => {
@@ -64,11 +65,9 @@ const Contact = () => {
               first catch-up.
             </p>
             <h3 className="text-5 fw-600">Living In:</h3>
-            <address className="text-4">
-              30 Shacham street, Los Angeles, USA.
-            </address>
+            <address className="text-4">New York, USA.</address>
             <h3 className="text-5 fw-600">Call:</h3>
-            <p className="text-4">(+060) 444 434 444</p>
+            <p className="text-4">(+1) 248 255 8389</p>
             <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
               <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
@@ -170,6 +169,9 @@ const Contact = () => {
                 <div className="col-12">
                   <label className="form-label" htmlFor="form-message">
                     How can I Help you?:
+                    <br></br>
+                    *leave your name, email address or other contact info in the
+                    message*
                   </label>
                   <textarea
                     id="form-message"
