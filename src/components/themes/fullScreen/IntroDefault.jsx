@@ -13,18 +13,23 @@ const FullScreenDefaultIntro = () => {
         <div className="row">
           <div className="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0 wow fadeIn">
             <h1 className="text-12 fw-300 mb-0 text-uppercase">
-              Hi, I'm a Freelancer
+              Hi, I'm Scott
             </h1>
             <h2 className="text-21 fw-600 text-uppercase mb-0 ms-n1">
               <Typewriter
                 options={{
-                  strings: ["Designer", "Developer", "Callum"],
+                  strings: [
+                    "Software Engineer",
+                    "Consultant",
+                    "Creator",
+                    "Curator",
+                  ],
                   autoStart: true,
                   loop: true,
                 }}
               />
             </h2>
-            <p className="text-5">based in Los Angeles, USA.</p>
+            <p className="text-5">based in New York, USA.</p>
             <Link
               className="btn btn-dark rounded-0 smooth-scroll mt-3"
               smooth="easeInOutQuint"
@@ -32,7 +37,7 @@ const FullScreenDefaultIntro = () => {
               style={{ cursor: "pointer" }}
               to="portfolio"
             >
-              View My Works
+              View My Work
             </Link>
             <Link
               className="btn btn-link text-dark smooth-scroll mt-3"

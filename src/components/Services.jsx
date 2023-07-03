@@ -19,13 +19,13 @@ const Services = () => {
       icon: "fas fa-pencil-ruler",
     },
     {
-      name: "App Design & Develop",
+      name: "App Design & Development",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
       icon: "fas fa-paint-brush",
     },
     {
-      name: "Business Analysis",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "Consulting Services",
+      desc: "Technology and business consulting services such as project management such as Kanban/Agile, database design and architecture, application development, DevOps, content creation strategy, ",
       icon: "fas fa-chart-area",
     },
     {
