@@ -4,34 +4,34 @@ const Services = () => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-palette",
-    },
-    {
-      name: "Web Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-desktop",
-    },
-    {
-      name: "UI/UX Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-pencil-ruler",
-    },
-    {
       name: "App Design & Development",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      desc: "Develops user-interfaces, business logic, API/server side architecture, data storage and integration with 3rd party services. Leverages tools such as ReactJS, NodeJS, Express, and AWS cloud services.",
       icon: "fas fa-paint-brush",
     },
     {
       name: "Consulting Services",
-      desc: "Technology and business consulting services such as project management such as Kanban/Agile, database design and architecture, application development, DevOps, content creation strategy, ",
+      desc: "Technology and business consulting services such as project management such as Kanban/Agile, database design, architecture, application development, DevOps, and go-to-market strategy",
       icon: "fas fa-chart-area",
     },
     {
-      name: "SEO Marketing",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "UI/UX Design",
+      desc: "Creates user-centered interfaces that are visually appealing, intuitive and have enhanced user experience. Wireframing, prototyping and testing to ensure design aligns with user needs and business goals.",
+      icon: "fas fa-pencil-ruler",
+    },
+    {
+      name: "Content Creation",
+      desc: "Develops compelling, relevant content that resonates with the target audience, aligns with brand messaging and encourages engagement and sharing. Focuses on delivering valuable, entertainment, and inspiring content, while leveraging visual elements to capture attention and drive conversions.",
       icon: "fas fa-bullhorn",
+    },
+    {
+      name: "Project Management",
+      desc: "Provides technical and business management services for full software development life cycle for IT and web based businesses.",
+      icon: "fas fa-palette",
+    },
+    {
+      name: "Business and Life Coaching",
+      desc: "Offers coaching for businesses, individuals, and organizations.  I coach to help people achieve their goals, develop systems and improve their situations.",
+      icon: "fas fa-desktop",
     },
   ];
 
